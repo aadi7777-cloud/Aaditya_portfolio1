@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(90deg, #00C9FF, #92FE9D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.primary-button {
+    background-color: #00C9FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #009ec3;
+}
+
+.btn2 {
+    background-color: #92FE9D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: #76e680;
+}
+
+/* Icons */
+.icon {
+    width: 100px;
+    height: auto;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 55px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: white;
+}
+
+/* Title Section */
+#title .img-fluid {
+    border-radius: 50%;
+}
+
+#title h1 {
+    font-weight: 800;
+}
+
+#title p {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Skills Section */
+#skills h2 {
+    font-weight: 800;
+}
+
+#skills .icon {
+    margin-bottom: 10px;
+}
+
+#skills h3 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about h2 {
+    font-weight: 800;
+}
+
+#about img {
+    border-radius: 10px;
+}
+
+#about p {
+    margin: 20px;
+    font-weight: 500;
+}
+
+/* Contact Section */
+#contact h2 {
+    font-weight: 800;
+}
+
+#contact .card-body h3 {
+    font-weight: 700;
+}
+
+#contact .card-body p {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
